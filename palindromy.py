@@ -10,4 +10,4 @@ def palindrom(wyraz):
         W argumentach funkcji naley wpisać wyraz, który funkcja ma sprawdzić pod kątem bycia palindromem np. palindrom("kajak")
 """
 
-palindrom("kajak")
+palindrom("potop")
