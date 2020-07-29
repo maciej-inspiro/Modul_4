@@ -6,9 +6,9 @@ def palindrom(wyraz):
         W argumentach funkcji naley wpisać wyraz, który funkcja ma sprawdzić pod kątem bycia palindromem np. palindrom("kajak")
     """
     if(wyraz == wyraz[:: - 1]): #string[:: – 1] zwraca stringa w odwrotnej kolejności
-        print("To jest palindrom")
+        print(bool(1))
     else:
-        print("To NIE jest palindrom")
+        print(bool(0))
 
 
 palindrom("potop")
