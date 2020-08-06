@@ -1,5 +1,3 @@
-#inspiracja 1: https://pl.python.org/forum/index.php?topic=2385.0
-
 import logging
 logging.basicConfig(level=logging.DEBUG)
 operation = input("Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:")
