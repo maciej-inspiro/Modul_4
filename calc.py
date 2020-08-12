@@ -7,19 +7,19 @@ if operation == "1":
     wynik = float(a)+float(b) #float - liczba rzeczywista, int - liczba całkowita (ang. integer)
     logging.info("Dodaję " + a + " i " + b)
     print("Wynik to " + str(wynik))
-if operation == "2":
+elif operation == "2":
     a = input("Podaj składnik 1. ")
     b = input("Podaj składnik 2.")
     wynik = float(a)-float(b)
     logging.info("Odejmuję " + a + " i " + b)
     print("Wynik to " + str(wynik))
-if operation == "3":
+elif operation == "3":
     a = input("Podaj składnik 1. ")
     b = input("Podaj składnik 2. ")
     wynik = float(a)*float(b)
     logging.info("Mnożę " + a + " i " + b)
     print("Wynik to " + str(wynik))
-if operation == "4":
+elif operation == "4":
     a = input("Podaj składnik 1.")
     b = input("Podaj składnik 2.")
     wynik = float(a)/float(b)
