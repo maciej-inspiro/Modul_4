@@ -22,5 +22,5 @@ while True:
       logging.info("Dzielę " + a + " i " + b)
       print(f'Wynik to:  {wynik}')
     else:
-      operation = input("Nie wybrałeś właściciwej opcji. Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:")
+      print("Nie wybrałeś właściciwej opcji. Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie:")
     
