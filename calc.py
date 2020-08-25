@@ -3,11 +3,14 @@ logging.basicConfig(level=logging.DEBUG)
 
 while True:
     operation = input("Podaj działanie, posługując się odpowiednią liczbą: 1 Dodawanie, 2 Odejmowanie, 3 Mnożenie, 4 Dzielenie: ")
-    a = float(input("Podaj składnik 1. "))
-    b = float(input("Podaj składnik 2. "))
-    typ = type(a) and type (b) is float
-    if typ is True:
-      print("OK, podane wartości są liczbami.")
+    a = input("Podaj składnik 1. ")
+    if a.isdigit():
+        logging.debug("OK")
+    else: logging.debug("Podana wartość nie jest liczbą!")
+    b = input("Podaj składnik 2. ")
+    if b.isdigit():
+        logging.debug("OK")
+    else: logging.debug("Podana wartość nie jest liczbą!")
     if operation == "1":
       wynik = float(a)+float(b) #float - liczba rzeczywista, int - liczba całkowita (ang. integer)
       logging.info(f"Dodaję {a}  i {b}")
